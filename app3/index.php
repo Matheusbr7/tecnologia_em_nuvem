@@ -10,12 +10,12 @@ $binario = '';
   $binario .= str_pad(decbin(ord($char)), 8, '0', STR_PAD_LEFT) . ' ';
   }
   return $binario;
+}
   //Exemplo de uso
 $frase = "Matheus Bastos Roberto";
-  $fraseBinario = strinParaBinario($frase);
+  $fraseBinario = stringParaBinario($frase);
 
 //Exibindo a frase original e sua versão binaria 
 echo "Frase original: " . $frase . "<br>";
 echo "Frase em binário " . $fraseBinario;
-
 ?>
